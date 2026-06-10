@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes serve . -p 3456)",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(\\(Get-Command npx\\).Source)",
+      "mcp__visualize__read_me",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
